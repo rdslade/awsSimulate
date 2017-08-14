@@ -1,0 +1,23 @@
+{
+  "name": "simulatecli",
+  "version": "1.0.0",
+  "description": "A command-line tool for simulating devices",
+  "main": "simulate.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "aws-iot-device-sdk": "^2.0.1",
+    "aws-sdk": "^2.85.0",
+    "commander": "^2.11.0",
+    "nodemailer": "^4.0.1",
+    "opener": "^1.4.3",
+    "plotly": "^1.0.6",
+    "request": "^2.81.0",
+    "string-to-buffer": "^1.1.0"
+  },
+  "devDependencies": {},
+  "author": "Ryan Slade",
+  "license": "ISC",
+  "bin": {
+    "simulate": "./simulate.js"
+  }
+}
